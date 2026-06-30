@@ -1,0 +1,62 @@
+# ---- KiCad .gitignore template ----
+
+# Backup files
+*.bak
+*~
+*-bak
+*-backups/
+_autosave-*
+*-save.pro
+*-save.kicad_pcb
+*-save.kicad_sch
+
+# Lock files
+*.lck
+~lock*
+
+# Auto-generated cache files
+fp-info-cache
+sym-lib-table.bak
+fp-lib-table.bak
+
+# Legacy/intermediate netlist & autorouter files
+*.net
+*.dsn
+*.ses
+
+# Plot/output directories (uncomment if you don't want generated
+# fab outputs committed alongside source — recommended for most teams)
+# gerbers/
+# drill/
+# 3d-models-output/
+# *.zip
+
+# Generated production files (uncomment as needed)
+# *.gbr
+# *.drl
+# *.pos
+# *.step
+# *.stp
+# *.wrl
+
+# Generated reports (uncomment if you don't want DRC/ERC reports tracked)
+# *-drc.rpt
+# *-erc.rpt
+# *.rpt
+
+# KiCad project local settings (often machine-specific; many teams ignore)
+# *.kicad_prl
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE junk
+.vscode/
+.idea/
+*.swp
+
+# Python cache (if using KiCad scripting/plugins)
+__pycache__/
+*.pyc

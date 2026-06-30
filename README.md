@@ -1,0 +1,1 @@
+This is a template of stm32f103c8t6 BluePill for future use as a reference for whom it may concern
